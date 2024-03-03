@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 const vitePWA = VitePWA(
   {registerType:"autoUpdate",
-  outDir:"build",
+  outDir:"dist",
 
   manifest:{
     name:"test",
